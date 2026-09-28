@@ -3,6 +3,13 @@
 A simple iOS app that reads your running workouts from Apple Health and
 tells you whether your running fitness is actually improving.
 
+This repo has two implementations of the same app:
+- **`Stride/` + `Stride.xcodeproj`** — native Swift/SwiftUI, built with Xcode.
+- **`expo-app/`** — React Native/Expo, built via EAS Build (no Mac needed
+  to produce an installable build — see `expo-app/README.md`).
+
+Both use the same scoring logic described below.
+
 ## What it shows
 
 - **Fitness Score (0–100)** — a single number, averaged over your last 4

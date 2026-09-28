@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "Stride",
+    "slug": "stride",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "platforms": ["ios"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.krishnrapoor.stride"
+    },
+    "plugins": [
+      [
+        "@kingstinct/react-native-healthkit",
+        {
+          "NSHealthShareUsageDescription": "Stride reads your running workouts, heart rate, and VO2 max from Health to show your running fitness trends.",
+          "NSHealthUpdateUsageDescription": false
+        }
+      ]
+    ]
+  }
+}
