@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BD38E230BD240ECA0BE9F69 /* StrideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7135FABD0F624BABBDE5A6F3 /* StrideApp.swift */; };
+		260D707292E14A8BB686239A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93621E6403904F738E26CF7A /* ContentView.swift */; };
+		3CC006F3063A4D5CA4A407E0 /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D3ECD14DF34079BD7BEC52 /* Run.swift */; };
+		65EB24E2C5724C3C8CCDE56B /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE7EFD20D2842F297947851 /* HealthKitManager.swift */; };
+		BFD70B6B722C42E283A3D4BD /* FitnessScoreCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7EC56B18274D3EB033F514 /* FitnessScoreCalculator.swift */; };
+		AEFFF3DDE6F346838F6BE2F9 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1C1B0849BF418181461671 /* DashboardView.swift */; };
+		2643FF4BF231456686124595 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992AA8E115CA440A96B71448 /* HistoryView.swift */; };
+		C2598E18077D4DFD8285CBF3 /* RunDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDD6FF6C00E49BD8BED8B1B /* RunDetailView.swift */; };
+		46FB3C195C7A43EB92D21F9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F5EC9B57E546368E3AE44B /* Assets.xcassets */; };
+		F84026772C914F7CA779BD72 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4391DBF5BDFA42499FF88218 /* HealthKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7135FABD0F624BABBDE5A6F3 /* StrideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrideApp.swift; sourceTree = "<group>"; };
+		93621E6403904F738E26CF7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		82D3ECD14DF34079BD7BEC52 /* Run.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
+		0EE7EFD20D2842F297947851 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		6D7EC56B18274D3EB033F514 /* FitnessScoreCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessScoreCalculator.swift; sourceTree = "<group>"; };
+		AB1C1B0849BF418181461671 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		992AA8E115CA440A96B71448 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		0FDD6FF6C00E49BD8BED8B1B /* RunDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunDetailView.swift; sourceTree = "<group>"; };
+		A5F5EC9B57E546368E3AE44B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC3453494E4A4762AB029E27 /* Stride.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Stride.entitlements; sourceTree = "<group>"; };
+		3C356FDB98AB438385223748 /* Stride.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stride.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4391DBF5BDFA42499FF88218 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9BE04CE1FF0475B916F1D85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F84026772C914F7CA779BD72 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25C6DC737836404F9B83FF86 = {
+			isa = PBXGroup;
+			children = (
+				078931202A9F47E996F8AF47 /* Stride */,
+				1B95393F7EE143CEA0A7EDC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B95393F7EE143CEA0A7EDC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C356FDB98AB438385223748 /* Stride.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		078931202A9F47E996F8AF47 /* Stride */ = {
+			isa = PBXGroup;
+			children = (
+				7135FABD0F624BABBDE5A6F3 /* StrideApp.swift */,
+				93621E6403904F738E26CF7A /* ContentView.swift */,
+				F5F5497806F4406AB3E9B38D /* Models */,
+				C4A1F23572C64E9193304208 /* Health */,
+				EB779F9B39BD4E47A8777BDD /* Scoring */,
+				531E697A3C1F4F17BDCA2799 /* Views */,
+				A5F5EC9B57E546368E3AE44B /* Assets.xcassets */,
+				DC3453494E4A4762AB029E27 /* Stride.entitlements */,
+			);
+			path = Stride;
+			sourceTree = "<group>";
+		};
+		F5F5497806F4406AB3E9B38D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				82D3ECD14DF34079BD7BEC52 /* Run.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C4A1F23572C64E9193304208 /* Health */ = {
+			isa = PBXGroup;
+			children = (
+				0EE7EFD20D2842F297947851 /* HealthKitManager.swift */,
+			);
+			path = Health;
+			sourceTree = "<group>";
+		};
+		EB779F9B39BD4E47A8777BDD /* Scoring */ = {
+			isa = PBXGroup;
+			children = (
+				6D7EC56B18274D3EB033F514 /* FitnessScoreCalculator.swift */,
+			);
+			path = Scoring;
+			sourceTree = "<group>";
+		};
+		531E697A3C1F4F17BDCA2799 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB1C1B0849BF418181461671 /* DashboardView.swift */,
+				992AA8E115CA440A96B71448 /* HistoryView.swift */,
+				0FDD6FF6C00E49BD8BED8B1B /* RunDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3827B173FC8744C9B9048313 /* Stride */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4726C28C02AD48B891EB1460 /* Build configuration list for PBXNativeTarget "Stride" */;
+			buildPhases = (
+				DCC842FF89CE4AD1A913CBDD /* Sources */,
+				B9BE04CE1FF0475B916F1D85 /* Frameworks */,
+				5D4DCAA146A349FDB582C7A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stride;
+			productName = Stride;
+			productReference = 3C356FDB98AB438385223748 /* Stride.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5AA749660FA4526A18AFD4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					3827B173FC8744C9B9048313 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = D71F5C6C0FFE4E01A6988C71 /* Build configuration list for PBXProject "Stride" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25C6DC737836404F9B83FF86;
+			productRefGroup = 1B95393F7EE143CEA0A7EDC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3827B173FC8744C9B9048313 /* Stride */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D4DCAA146A349FDB582C7A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46FB3C195C7A43EB92D21F9D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCC842FF89CE4AD1A913CBDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD38E230BD240ECA0BE9F69 /* StrideApp.swift in Sources */,
+				260D707292E14A8BB686239A /* ContentView.swift in Sources */,
+				3CC006F3063A4D5CA4A407E0 /* Run.swift in Sources */,
+				65EB24E2C5724C3C8CCDE56B /* HealthKitManager.swift in Sources */,
+				BFD70B6B722C42E283A3D4BD /* FitnessScoreCalculator.swift in Sources */,
+				AEFFF3DDE6F346838F6BE2F9 /* DashboardView.swift in Sources */,
+				2643FF4BF231456686124595 /* HistoryView.swift in Sources */,
+				C2598E18077D4DFD8285CBF3 /* RunDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0DDF39B4BC134EAD93195E8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71FDE0AF9D7E404E9B1ACED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86C92735A78240BF825CD8CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Stride/Stride.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Stride reads your running workouts, heart rate, and VO2 max from Health to show your running fitness trends.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Stride does not write to Health.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krishnrapoor.Stride;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F513866597204017A283A016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Stride/Stride.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Stride reads your running workouts, heart rate, and VO2 max from Health to show your running fitness trends.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Stride does not write to Health.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krishnrapoor.Stride;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D71F5C6C0FFE4E01A6988C71 /* Build configuration list for PBXProject "Stride" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DDF39B4BC134EAD93195E8B /* Debug */,
+				71FDE0AF9D7E404E9B1ACED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4726C28C02AD48B891EB1460 /* Build configuration list for PBXNativeTarget "Stride" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86C92735A78240BF825CD8CB /* Debug */,
+				F513866597204017A283A016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5AA749660FA4526A18AFD4C /* Project object */;
+}
