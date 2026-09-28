@@ -16,7 +16,8 @@
         "@kingstinct/react-native-healthkit",
         {
           "NSHealthShareUsageDescription": "Stride reads your running workouts, heart rate, and VO2 max from Health to show your running fitness trends.",
-          "NSHealthUpdateUsageDescription": false
+          "NSHealthUpdateUsageDescription": false,
+          "background": false
         }
       ]
     ]
